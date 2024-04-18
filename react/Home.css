@@ -1,0 +1,73 @@
+.home {
+  background-size: cover; /* Cover the entire area of the div */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Make sure it covers the full viewport height */
+  color: white; /* Ensuring text is visible on potentially dark backgrounds */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for navbar */
+  padding: 10px 0;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white; /* Light color for visibility */
+  font-weight: bold;
+}
+
+.search-section {
+  position: relative;
+  padding-top: 20px;
+  text-align: center; /* Centering all elements in search section */
+}
+
+.logo {
+  width: 150px; /* Adjust to your preference */
+  height: 150px; /* Same as width for a perfect circle */
+  border-radius: 50%; /* Makes the image circular */
+  display: block; /* For margin auto to work */
+  margin: 20px auto; /* Center horizontally */
+  border: 5px solid black;
+  
+}
+
+.search-bar {
+  width: 50%;
+  padding: 10px;
+  margin: 10px 0; /* Space around search bar */
+}
+
+.dropdown {
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  background: white; /* Background to ensure readability */
+  color: black; /* Text color */
+}
+
+.button  {
+  
+  
+  width: 150px;
+  margin-left: 45%;
+  margin-top: 3%;
+  display: flex;
+  align-items: center;  /* This ensures vertical center alignment of the button contents */
+  justify-content: center; /* This centers the contents horizontally */
+  padding: 8px 12px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius:5px;
+  cursor: pointer;
+  gap: 5px; /* Adds space between the text and the icon */
+}
+
+.search-icon {
+  width: 16px;  /* Width of the icon */
+  height: 16px; /* Height of the icon */
+}
+
